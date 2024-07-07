@@ -1,0 +1,181 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/farid/Desktop/Projects/Booking/src/gateways/FrontendGateway/FrontendGateway.csproj": {}
+  },
+  "projects": {
+    "/Users/farid/Desktop/Projects/Booking/src/gateways/FrontendGateway/FrontendGateway.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/farid/Desktop/Projects/Booking/src/gateways/FrontendGateway/FrontendGateway.csproj",
+        "projectName": "FrontendGateway",
+        "projectPath": "/Users/farid/Desktop/Projects/Booking/src/gateways/FrontendGateway/FrontendGateway.csproj",
+        "packagesPath": "/Users/farid/.nuget/packages/",
+        "outputPath": "/Users/farid/Desktop/Projects/Booking/src/gateways/FrontendGateway/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/farid/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/farid/Desktop/Projects/Booking/src/middlewares/Middleware/Middleware.csproj": {
+                "projectPath": "/Users/farid/Desktop/Projects/Booking/src/middlewares/Middleware/Middleware.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AspNetCore.HealthChecks.MongoDb": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "AspNetCore.HealthChecks.UI": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "AspNetCore.HealthChecks.UI.Client": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "AspNetCore.HealthChecks.UI.InMemory.Storage": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.19.6, )"
+            },
+            "Ocelot": {
+              "target": "Package",
+              "version": "[23.1.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/farid/Desktop/Projects/Booking/src/middlewares/Middleware/Middleware.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/farid/Desktop/Projects/Booking/src/middlewares/Middleware/Middleware.csproj",
+        "projectName": "Middleware",
+        "projectPath": "/Users/farid/Desktop/Projects/Booking/src/middlewares/Middleware/Middleware.csproj",
+        "packagesPath": "/Users/farid/.nuget/packages/",
+        "outputPath": "/Users/farid/Desktop/Projects/Booking/src/middlewares/Middleware/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/farid/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.24.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

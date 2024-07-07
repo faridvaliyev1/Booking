@@ -1,0 +1,16 @@
+version: "3.8"
+services:
+  mongo:
+    image: mongo
+    ports:
+       - 27017:27017
+
+ 
+  identity:
+    build:
+      context: .
+      dockerfile: src/microservices/IdentityMicroservice/Dockerfile
+    depends_on:
+      - mongo
+    ports:
+      - 44397:80
